@@ -1,0 +1,9 @@
+//go:build gonverter
+
+package nested
+
+import "github.com/sivchari/gonverter/runtime"
+
+//go:generate go run ../../cmd/gonverter/main.go .
+
+var _ = runtime.Register[*UserRequest, *User]()
