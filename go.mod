@@ -1,6 +1,6 @@
 module github.com/sivchari/gonverter
 
-go 1.26
+go 1.24.0
 
 require golang.org/x/tools v0.39.0
 
