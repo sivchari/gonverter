@@ -2,4 +2,4 @@
 package gonverter
 
 // Version is the current version of govalid.
-const Version = "0.1.0"
+const Version = "0.1.1"
